@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		264559D61EFF771F2EDE56B4 /* SpeechCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA01EAE970E15BF5797EA61A /* SpeechCapture.swift */; };
+		3F6B2BFB1677405591DC1674 /* MicroRemoteDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2C6A6806AB3FF25151C71 /* MicroRemoteDemoApp.swift */; };
+		5E8C61A3B9143BF8AEE277D4 /* RemoteBoundaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958481908F4497B5AA34B1A2 /* RemoteBoundaryTests.swift */; };
+		6AA2701FB25769FB084389A2 /* RemoteCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4882D4647E86913FE254DB67 /* RemoteCore.swift */; };
+		D78352377548F08014B39AC0 /* RemoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6543F521B37047DCC4F128B7 /* RemoteModel.swift */; };
+		ED910EEA48E3BE7EFAB0465A /* DeckPanels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E5335B410A1C9E204B0E5A /* DeckPanels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCD203FB15C977F7CF1B3196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ADB7118E70025EF1E8CB930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABDEF66FD36F0A3408A02DBD;
+			remoteInfo = MicroRemoteDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F5347D90B1FA842DF2B535E /* MicroRemoteDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MicroRemoteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E5335B410A1C9E204B0E5A /* DeckPanels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckPanels.swift; sourceTree = "<group>"; };
+		4882D4647E86913FE254DB67 /* RemoteCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCore.swift; sourceTree = "<group>"; };
+		6543F521B37047DCC4F128B7 /* RemoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteModel.swift; sourceTree = "<group>"; };
+		90384A0F513756D111EC915A /* AIMicroTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AIMicroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		958481908F4497B5AA34B1A2 /* RemoteBoundaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteBoundaryTests.swift; sourceTree = "<group>"; };
+		9FA2C6A6806AB3FF25151C71 /* MicroRemoteDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroRemoteDemoApp.swift; sourceTree = "<group>"; };
+		EA01EAE970E15BF5797EA61A /* SpeechCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechCapture.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4BF8FE892F9A3CCE2FC39CE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90384A0F513756D111EC915A /* AIMicroTests.xctest */,
+				3F5347D90B1FA842DF2B535E /* MicroRemoteDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86A5AD6C6564EF53D1E55A5E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				958481908F4497B5AA34B1A2 /* RemoteBoundaryTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		94D8E24477AE162D3792431D = {
+			isa = PBXGroup;
+			children = (
+				A192162F3B61A0CDDEB9AB99 /* Sources */,
+				86A5AD6C6564EF53D1E55A5E /* Tests */,
+				4BF8FE892F9A3CCE2FC39CE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A192162F3B61A0CDDEB9AB99 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				42E5335B410A1C9E204B0E5A /* DeckPanels.swift */,
+				9FA2C6A6806AB3FF25151C71 /* MicroRemoteDemoApp.swift */,
+				4882D4647E86913FE254DB67 /* RemoteCore.swift */,
+				6543F521B37047DCC4F128B7 /* RemoteModel.swift */,
+				EA01EAE970E15BF5797EA61A /* SpeechCapture.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BC96A501EA07C33AE616049 /* AIMicroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B885B335F698321A21A3096 /* Build configuration list for PBXNativeTarget "AIMicroTests" */;
+			buildPhases = (
+				E58443B7364502419DE2FD66 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				445896CE27C6C4416341CB63 /* PBXTargetDependency */,
+			);
+			name = AIMicroTests;
+			packageProductDependencies = (
+			);
+			productName = AIMicroTests;
+			productReference = 90384A0F513756D111EC915A /* AIMicroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABDEF66FD36F0A3408A02DBD /* MicroRemoteDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3B9E6CC70E8804D0DFBF4B /* Build configuration list for PBXNativeTarget "MicroRemoteDemo" */;
+			buildPhases = (
+				7E2C3706ADEDC95074CE9E3F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicroRemoteDemo;
+			packageProductDependencies = (
+			);
+			productName = MicroRemoteDemo;
+			productReference = 3F5347D90B1FA842DF2B535E /* MicroRemoteDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ADB7118E70025EF1E8CB930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 4F697C95BAFAAC5D15645AA7 /* Build configuration list for PBXProject "MicroRemoteDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 94D8E24477AE162D3792431D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4BF8FE892F9A3CCE2FC39CE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BC96A501EA07C33AE616049 /* AIMicroTests */,
+				ABDEF66FD36F0A3408A02DBD /* MicroRemoteDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E2C3706ADEDC95074CE9E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED910EEA48E3BE7EFAB0465A /* DeckPanels.swift in Sources */,
+				3F6B2BFB1677405591DC1674 /* MicroRemoteDemoApp.swift in Sources */,
+				6AA2701FB25769FB084389A2 /* RemoteCore.swift in Sources */,
+				D78352377548F08014B39AC0 /* RemoteModel.swift in Sources */,
+				264559D61EFF771F2EDE56B4 /* SpeechCapture.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58443B7364502419DE2FD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8C61A3B9143BF8AEE277D4 /* RemoteBoundaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		445896CE27C6C4416341CB63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABDEF66FD36F0A3408A02DBD /* MicroRemoteDemo */;
+			targetProxy = BCD203FB15C977F7CF1B3196 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A779570F1976D75C91E4E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CD3C24EB734103FCFCD634C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AIMicro;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scanne den Kopplungs-QR deines Macs.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "AIMicro verbindet sich mit deinem Mac zur Steuerung bestehender Agentensitzungen.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Diktiere eine Nachricht; du prüfst den Text vor dem Senden.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "AIMicro wandelt deine Sprache lokal in einen editierbaren Entwurf um.";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aimicro.iphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		298B95DC900F0E51C9CEFEE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		340B6E7151D46662B4FE5942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicroRemoteDemo.app/MicroRemoteDemo";
+			};
+			name = Release;
+		};
+		81EC06DB396ACCE4F5CFD102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicroRemoteDemo.app/MicroRemoteDemo";
+			};
+			name = Debug;
+		};
+		A2661BFDCFCD8E7211A8618C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AIMicro;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scanne den Kopplungs-QR deines Macs.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "AIMicro verbindet sich mit deinem Mac zur Steuerung bestehender Agentensitzungen.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Diktiere eine Nachricht; du prüfst den Text vor dem Senden.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "AIMicro wandelt deine Sprache lokal in einen editierbaren Entwurf um.";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aimicro.iphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F3B9E6CC70E8804D0DFBF4B /* Build configuration list for PBXNativeTarget "MicroRemoteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A779570F1976D75C91E4E81 /* Debug */,
+				298B95DC900F0E51C9CEFEE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1B885B335F698321A21A3096 /* Build configuration list for PBXNativeTarget "AIMicroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EC06DB396ACCE4F5CFD102 /* Debug */,
+				340B6E7151D46662B4FE5942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4F697C95BAFAAC5D15645AA7 /* Build configuration list for PBXProject "MicroRemoteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CD3C24EB734103FCFCD634C /* Debug */,
+				A2661BFDCFCD8E7211A8618C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ADB7118E70025EF1E8CB930 /* Project object */;
+}

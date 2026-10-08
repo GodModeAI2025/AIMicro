@@ -1,0 +1,38 @@
+name: MicroRemoteDemo
+options:
+  deploymentTarget:
+    iOS: '18.0'
+settings:
+  base:
+    SWIFT_VERSION: '6.0'
+    PRODUCT_BUNDLE_IDENTIFIER: com.aimicro.iphone
+    INFOPLIST_KEY_CFBundleDisplayName: AIMicro
+    GENERATE_INFOPLIST_FILE: YES
+    CODE_SIGNING_ALLOWED: NO
+    "CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]": YES
+    "CODE_SIGN_IDENTITY[sdk=iphonesimulator*]": "-"
+    TARGETED_DEVICE_FAMILY: '1'
+    INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
+    INFOPLIST_KEY_UIStatusBarHidden: YES
+    INFOPLIST_KEY_NSLocalNetworkUsageDescription: "AIMicro verbindet sich mit deinem Mac zur Steuerung bestehender Agentensitzungen."
+    INFOPLIST_KEY_NSMicrophoneUsageDescription: "Diktiere eine Nachricht; du prüfst den Text vor dem Senden."
+    INFOPLIST_KEY_NSSpeechRecognitionUsageDescription: "AIMicro wandelt deine Sprache lokal in einen editierbaren Entwurf um."
+    INFOPLIST_KEY_NSCameraUsageDescription: "Scanne den Kopplungs-QR deines Macs."
+targets:
+  MicroRemoteDemo:
+    type: application
+    platform: iOS
+    sources: [Sources]
+  AIMicroTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Tests]
+    dependencies:
+      - target: MicroRemoteDemo
+schemes:
+  MicroRemoteDemo:
+    build:
+      targets:
+        MicroRemoteDemo: all
+    test:
+      targets: [AIMicroTests]

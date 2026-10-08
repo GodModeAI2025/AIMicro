@@ -1,0 +1,14 @@
+ Window, {{0.0, 0.0}, {667.0, 375.0}}, hitPoint: {333.5, 187.5}
+      Button, {{68.0, 107.5}, {48.0, 48.0}}, identifier: 'chevron.up', label: 'Go Up', Disabled, hitPoint: {92.0, 131.5}
+      Button, {{16.0, 159.5}, {48.0, 48.0}}, identifier: 'chevron.left', label: 'Back', Disabled, hitPoint: {40.0, 183.5}
+      Button, {{68.0, 159.5}, {48.0, 48.0}}, identifier: 'scope', label: 'Scope Reticle', Disabled, hitPoint: {92.0, 183.5}
+      Button, {{120.0, 159.5}, {48.0, 48.0}}, identifier: 'chevron.right', label: 'Forward', Disabled, hitPoint: {144.0, 183.5}
+      Button, {{184.0, 167.5}, {101.0, 56.0}}, label: 'Freigabe vor Bestätigung prüfen', Disabled, hitPoint: {234.5, 195.5}
+      Button, {{293.0, 167.5}, {101.0, 56.0}}, label: 'Aktuelle Anfrage prüfen und ablehnen', Disabled, hitPoint: {343.5, 195.5}
+      Button, {{402.0, 167.5}, {101.0, 56.0}}, label: 'Alle Aktionen', hitPoint: {452.5, 195.5}
+      Button, {{68.0, 211.5}, {48.0, 48.0}}, identifier: 'chevron.down', label: 'Go Down', Disabled, hitPoint: {92.0, 235.5}
+      Button, {{184.0, 231.5}, {319.0, 48.0}}, label: 'Nachricht bearbeiten', hitPoint: {343.5, 255.5}
+      Button, {{16.0, 307.0}, {203.5, 56.0}}, label: 'Steuern', hitPoint: {117.8, 335.0}
+      Button, {{231.5, 307.0}, {204.0, 56.0}}, label: 'Halten zum Sprechen, doppeltippen für Daueraufnahme', hitPoint: {333.5, 335.0}
+      Button, {{447.5, 307.0}, {203.5, 56.0}}, label: 'Senden', Disabled, hitPoint: {549.2, 335.0}
+ Window, {{0.0, 0.0}, {667.0, 375.0}}, hitPoint: {333.5, 187.5}

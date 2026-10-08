@@ -1,5 +1,6 @@
 # AIMicro protocol v1
 
+Current direction supersedes this HTTPS/desktop baseline: direct SSH to herdr, not yet implemented. Work stopped at the user request; see [WORK-STATUS.md](../docs/WORK-STATUS.md).
 HTTPS only. The iPhone compares SHA-256 of the server leaf certificate with the fingerprint supplied out-of-band by the macOS host's QR code. No universal trust bypass.
 
 QR: `aimicro://pair?url=https%3A%2F%2F192.0.2.1%3A9443&fingerprint=<64hex>&code=<six-digits>`.

@@ -1,5 +1,7 @@
 # AIMicro
 
+**Aktuelle Zielrichtung: direktes SSH zu herdr. Arbeit auf Nutzerwunsch vorerst beendet; Umstellung geplant, noch nicht implementiert. [Stand, Arbeit und Wiederaufnahmeplan](docs/WORK-STATUS.md).**
+
 Native iPhone-Fernbedienung im Querformat mit lokalem macOS-Host für **vorhandene Codex-Desktop-Chats und Claude-Code-Terminals**. Das Projekt entstand aus der Untersuchung des Codex Micro von Work Louder.
 
 **Entwicklungsstand:** Beide nativen Apps bauen. HTTPS-Kopplung, Zertifikat-Pinning, widerrufbare Geräte und sitzungsgebundene Befehle sind implementiert. Vollständige Funktionsgleichheit mit Codex Micro ist noch nicht erreicht oder durch Live-Desktop-Tests nachgewiesen. Nicht verfügbare Funktionen bleiben sichtbar und gesperrt. Keine simulierte Freigabe wird als echte Desktop-Aktion ausgegeben.
@@ -21,7 +23,7 @@ Der Mac lauscht standardmäßig per HTTPS auf Port 9443. Kein Cloud-Relay und ke
 ## Nachweise und Grenzen
 
 - Backend: 20 Unit- und tatsächliche HTTPS-Integrationstests bestanden.
-- iOS: fünf native Grenztests via Xcode MCP bestanden; native Builds erfolgreich.
+- iOS: sechs native Grenztests via Xcode MCP bestanden; native Builds erfolgreich.
 - Mac: nativer Build, Ad-hoc-Signaturprüfung und reine Helper-Bindungstests bestanden.
 - Vorhandene Desktop-Sitzungen werden über macOS Accessibility und für Terminal/iTerm zusätzlich nachgewiesene TTY-/Prozessidentität angebunden. Das ist versionsabhängig und kein zugesicherter offizieller Remote-Control-Vertrag der Desktop-Anbieter.
 - Hardwaregefühl, RGB-Tasten, USB-Umschaltung und die Hardware-Batterie sind nicht auf einen Touchscreen übertragbar.

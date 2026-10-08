@@ -1,5 +1,6 @@
 # Build plan — existing desktop sessions
 
+Current direction supersedes this HTTPS/desktop baseline: direct SSH to herdr, not yet implemented. Work stopped at the user request; see [WORK-STATUS.md](WORK-STATUS.md).
 User explicitly selected existing Codex desktop chats and existing Claude Code terminals, then supplied this repository as delivery location. SDK-created replacement sessions alone do not satisfy that request.
 
 ## Requirements and acceptance

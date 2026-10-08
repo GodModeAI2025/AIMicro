@@ -1,6 +1,6 @@
 # Vorschlag: AIMicro als herdr-Fernbedienung
 
-Stand 8. Oktober 2026. Nutzer fragt, ob ein gemeinsamer herdr-Adapter mit SSH/API einfacher wäre als einzelne Coding-Anbieter-Adapter. Ergebnis: **ja für herdr-verwaltete Agenten; keine automatische vollständige Micro-Semantik**. Dies ist ein geprüfter Architekturvorschlag, noch kein implementierter herdr-Adapter.
+Stand 8. Oktober 2026. Nutzer fragt, ob ein gemeinsamer herdr-Adapter mit SSH/API einfacher wäre als einzelne Coding-Anbieter-Adapter. Ergebnis: **ja für herdr-verwaltete Agenten; keine automatische vollständige Micro-Semantik**. Der Nutzer hat diese Richtung anschließend ausdrücklich beauftragt. Die Arbeit wurde danach auf seinen Wunsch angehalten: dies bleibt ein geprüfter Architekturplan, noch kein implementierter herdr-Adapter. Siehe [WORK-STATUS.md](WORK-STATUS.md).
 
 ## Aktuell verifiziert
 
